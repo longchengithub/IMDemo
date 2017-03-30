@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.chenlong.imdemo.widget.DragViewLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dragView"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include layout="@layout/menu_layout" android:id="@+id/menu_layout"></include>
+    <include layout="@layout/main_layout" android:id="@+id/menu_layout"></include>
+
+</com.example.chenlong.imdemo.widget.DragViewLayout>
